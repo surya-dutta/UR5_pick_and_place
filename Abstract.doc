@@ -1,0 +1,15 @@
+Abstract:
+
+The potential for robotic applications in the industrial manufacturing field is increasing day by day. A more recent focus has been on grasping devices for 
+material handling. The purpose of our work is to investigate a potential approach to getting around the present constraints on the robotic solutions already 
+in use for selecting items in cluttered settings. In computerized production businesses, pick-and-place tasks are fundamentally important. Bin-picking is one 
+of the most common starting phase jobs in industrial operations. The difficulty lies in handling mixed bins containing various components with complicated 
+configurations in a more flexible manner. Without having to make any changes to the hardware’s structure or design, businesses can manage a wide variety of 
+components by using clever autonomous robots to select various types of items. The robot sorts the item or chooses it based on the description after using 
+object detection to determine its hue, depth, and form. We propose a software design of a robotic pick-and-place system embedded with preliminary computer 
+vision abilities to execute various haptic-based tasks such as pick-and-place and sorting. The entire project is built on Robotic Operating System. ROS was 
+selected because the interface allows developers to implement techniques such as advanced perception, object recognition, and 3D bounding of objects for 
+working with picking and placing complex objects. We utilize the service of MoveIt which is an open-source robotic manipulation platform that allows developers 
+to develop complex manipulation applications using ROS. Through MoveIt, developers can implement and simulate motion planning, manipulation, inverse kinematics, 
+control, 3D perception, and collision checking. We utilize the services of the Gazebo simulator and the RViz visualizer to simulate and analyze the task 
+implementation done by our robot model, the UR5 robot designed by Universal Robots.
